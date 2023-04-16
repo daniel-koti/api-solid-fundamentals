@@ -32,8 +32,6 @@ describe('Create Check-in (e2e)', () => {
         longitude: -49.6401091,
       })
 
-    console.log(response.statusCode)
-
     expect(response.statusCode).toEqual(201)
   })
 })
